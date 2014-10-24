@@ -927,3 +927,35 @@ i.icon {
   width: 13px;
   height: 12px;
 }
+
+/* wq-section-02*/
+.wq-section-02 {
+  /* wq-section-02-left*/
+  /* wq-section-02-right*/
+}
+.wq-section-02 .wq-section-02-left {
+  width: 220px;
+  padding: 0px 20px;
+  border: 1px solid #e0e0e0;
+  /* leftside-panel*/
+}
+.wq-section-02 .wq-section-02-left .leftside-panel {
+  margin: 10px 0px;
+  /* soo-title*/
+  /* soo-body*/
+}
+.wq-section-02 .wq-section-02-left .leftside-panel .soo-title {
+  font-size: 14px;
+  color: #ff4a00;
+}
+.wq-section-02 .wq-section-02-left .leftside-panel .soo-body {
+  line-height: 25px;
+}
+.wq-section-02 .wq-section-02-left .leftside-panel .soo-body a {
+  display: inline-block;
+  color: #666666;
+  font-size: 12px;
+}
+.wq-section-02 .wq-section-02-right {
+  width: 965px;
+}
