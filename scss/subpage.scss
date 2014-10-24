@@ -4,17 +4,31 @@
 @import"layout";
 @import"component";
 @import"sprite";
+
+
+/* wq-section-01*/
+.wq-section-01{
+    background-color:#fff;
+    .wq-section-01-header{
+      border-bottom:1px solid #e8e8e8;
+      padding:15px 0 10px;
+    }
+    .wq-section-01-body{
+      padding:15px 0;
+    }
+}
+
 /* wq-section-02*/
 
 .wq-section-02 {
     /* wq-section-02-left*/
-    
+
     .wq-section-02-left {
         width: 220px;
         padding: 0px 20px;
         border: 1px solid #e0e0e0;
         /* leftside-panel*/
-        
+
         .leftside-panel {
             $side_soo_title_color: #ff4a00;
             margin: 10px 0px;
@@ -35,7 +49,7 @@
         }
     }
     /* wq-section-02-right*/
-    
+
     .wq-section-02-right {
         width: 965px;
     }

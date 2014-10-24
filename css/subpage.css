@@ -928,6 +928,18 @@ i.icon {
   height: 12px;
 }
 
+/* wq-section-01*/
+.wq-section-01 {
+  background-color: #fff;
+}
+.wq-section-01 .wq-section-01-header {
+  border-bottom: 1px solid #e8e8e8;
+  padding: 15px 0 10px;
+}
+.wq-section-01 .wq-section-01-body {
+  padding: 15px 0;
+}
+
 /* wq-section-02*/
 .wq-section-02 {
   /* wq-section-02-left*/
