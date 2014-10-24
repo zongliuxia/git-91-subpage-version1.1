@@ -1,8 +1,42 @@
+@charset"utf-8";
+@import"util";
+@import"base";
+@import"layout";
+@import"component";
+@import"sprite";
+/* wq-section-02*/
 
-@import "util";
-@import "base";
-@import "layout";
-@import "component";
-@import "sprite";
-
-
+.wq-section-02 {
+    /* wq-section-02-left*/
+    
+    .wq-section-02-left {
+        width: 220px;
+        padding: 0px 20px;
+        border: 1px solid #e0e0e0;
+        /* leftside-panel*/
+        
+        .leftside-panel {
+            $side_soo_title_color: #ff4a00;
+            margin: 10px 0px;
+            /* soo-title*/
+            .soo-title {
+                font-size: 14px;
+                color: $side_soo_title_color;
+            }
+            /* soo-body*/
+            .soo-body{
+            	line-height: 25px;
+				a{
+					display: inline-block;
+					color: #666666;
+					font-size: 12px;
+				}
+            }
+        }
+    }
+    /* wq-section-02-right*/
+    
+    .wq-section-02-right {
+        width: 965px;
+    }
+}
