@@ -983,13 +983,14 @@ i.icon {
 }
 .wq-section-01 .wq-section-01-body-nav-left span {
   display: block;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
 }
 .wq-section-01 .wq-section-01-body-nav-left span:nth-child(3n) {
   margin-bottom: 0;
 }
 .wq-section-01 .wq-section-01-body-nav-right {
   float: left;
+  margin: 7px 0;
 }
 .wq-section-01 .wq-section-01-body-nav-right div {
   /* margin: 10px 0; */
@@ -1006,6 +1007,9 @@ i.icon {
   padding: 0 10px;
   background-color: #f00;
   border-radius: 10px;
+}
+.wq-section-01 .wq-section-01-body-nav-right a {
+  padding: 0 10px;
 }
 
 /* wq-section-02*/
